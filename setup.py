@@ -13,9 +13,6 @@ setup(
     ],
     long_description=open('README.md').read(),
     install_requires=[
-        'numpy',
-        'pytest',
-        'pytest-cov',
-        'radon'
+        'numpy==1.19.2'
     ]
 )
