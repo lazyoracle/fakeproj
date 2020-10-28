@@ -1,3 +1,7 @@
+"""
+setup file for installing package
+"""
+
 from distutils.core import setup
 
 setup(
