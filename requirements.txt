@@ -1,0 +1,5 @@
+docstr-coverage==1.2.0
+numpy==1.19.2
+pytest==6.1.1
+pytest-cov==2.10.1
+radon==4.3.2
