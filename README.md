@@ -16,7 +16,6 @@ pip install -r requirements.txt
 
 ### Testing
 
-This project uses [`pytest`](https://docs.pytest.org/en/latest/) for testing. 
 
 ```bash
 pytest -s -v --cov=fakeproj test/
@@ -37,10 +36,10 @@ docstr-coverage .
 
 ### GitHub Actions
 
-* Integration Testing (Python 3.6, 3.7, 3.8 on Ubuntu:latest)
-* Code Coverage
-* Code Complexity (Maximum CC of B/B/A)
-* Build Testing (Python 3.6, 3.7, 3.8 on {ubuntu, macos, windows}:latest)
+* Integration Testing (Python 3.6, 3.7, 3.8 on Ubuntu:latest)  ![integration test](https://github.com/lazyoracle/fakeproj/workflows/Integration%20Testing/badge.svg)
+* Code Coverage   ![coverage](https://github.com/lazyoracle/fakeproj/workflows/Code%20Coverage/badge.svg)
+* Code Complexity (Maximum CC of B/B/A)  ![complexity test](https://github.com/lazyoracle/fakeproj/workflows/Code%20Complexity/badge.svg)
+* Build Testing (Python 3.6, 3.7, 3.8 on {ubuntu, macos, windows}:latest)  ![build test](https://github.com/lazyoracle/fakeproj/workflows/Python%20package%20Build/badge.svg) 
 
 ### Code Formatting
 This project uses [`black`](https://black.readthedocs.io/en/stable/) for code styling. 
