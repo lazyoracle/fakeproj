@@ -4,6 +4,7 @@ module to test fake functions
 
 from fakeproj.fakedir.fakemodule import fakefunc
 
+
 def dummyfunc() -> int:
     """dummy function to use module
 
@@ -16,7 +17,7 @@ def dummyfunc() -> int:
     myarray = fakefunc(mylist)
     return len(myarray)
 
+
 def test_dummy_func() -> None:
-    """test dummy_func()
-    """
+    """test dummy_func()"""
     assert dummyfunc() == 5
