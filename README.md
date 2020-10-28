@@ -23,3 +23,7 @@ docstr-coverage .
 ```
 
 ### GitHub Actions
+
+* Integration Testing
+* Code Coverage
+* Code Complexity
