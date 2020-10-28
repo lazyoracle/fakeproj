@@ -36,4 +36,4 @@ jobs:
         pip install xenon
     - name: Test Complexity with Xenon
       run: |
-        xenon --max-absolute C --max-modules B --max-average A .
+        xenon --max-absolute B --max-modules B --max-average A .
