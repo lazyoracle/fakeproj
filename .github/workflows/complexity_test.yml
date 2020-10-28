@@ -31,8 +31,9 @@ jobs:
           ${{ runner.os }}-pip-
           ${{ runner.os }}-
     - name: Install dependencies
-      run: pip install -r requirements.txt
-      run: pip install xenon
+      run: |
+        pip install -r requirements.txt
+        pip install xenon
     - name: Test Complexity with Xenon
       run: |
         xenon --max-absolute C --max-modules B --max-average A .
