@@ -1,4 +1,4 @@
-name: Code Coverage
+name: Code Complexity
 
 on:
   push:
@@ -13,9 +13,7 @@ jobs:
     strategy:
       matrix:
         python-version: [3.8]
-    env:
-      OS: 'ubuntu-latest'
-      PYTHON: '3.7'
+
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version }}
@@ -33,15 +31,9 @@ jobs:
           ${{ runner.os }}-pip-
           ${{ runner.os }}-
     - name: Install dependencies
-      run: pip install -r requirements.txt
-    - name: Test with pytest
       run: |
-        pytest -v --cov=fakeproj --cov-report=xml test/
-    - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v1
-      with:
-        file: ./coverage.xml
-        env_vars: OS,PYTHON
-        name: codecov-fakeproj
-        fail_ci_if_error: true
-        verbose: true
+        pip install -r requirements.txt
+        pip install xenon
+    - name: Test Complexity with Xenon
+      run: |
+        xenon --max-absolute C --max-modules B --max-average A .
