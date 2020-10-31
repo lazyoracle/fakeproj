@@ -1,14 +1,18 @@
 """fake module with two fake functions used for tests
 """
 import numpy as np
+from typing import List
+from typing import Iterable
+
+Vector = List[float]
 
 
-def fakefunc(fakelist: list):
+def fakefunc(fakelist: Vector) -> Iterable:
     """take a list and return numpy array
 
     Parameters
     ----------
-    fakelist : list
+    fakelist : list[float]
         list of ints
 
     Returns
@@ -21,7 +25,7 @@ def fakefunc(fakelist: list):
     return fake_array
 
 
-def yaff(fakestr: str):
+def yaff(fakestr: str) -> str:
     """yet another fake function to print and return
 
     Parameters
