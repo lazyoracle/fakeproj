@@ -3,6 +3,7 @@ module to test fake functions
 """
 
 from fakeproj.fakedir.fakemodule import fakefunc
+import pytest
 
 
 def dummyfunc() -> int:
@@ -18,6 +19,7 @@ def dummyfunc() -> int:
     return len(myarray)
 
 
+@pytest.mark.fakemodule
 def test_dummy_func() -> None:
     """test dummy_func()"""
     assert dummyfunc() == 5
