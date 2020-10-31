@@ -39,3 +39,22 @@ def recp_sum(numbers: Vector) -> float:
         if i != 0:
             result += 1.0 / i
     return result
+
+
+def pytha_quad(numbers: Vector) -> bool:
+    """check if a list is pythagorean quadruplet
+
+    Parameters
+    ----------
+    numbers : list(float)
+        list of 4 numbers
+
+    Returns
+    -------
+    bool
+        if it is a pythagorean quadruplet
+    """
+    assert len(numbers) == 4, "Should be a list of 4 numbers"
+
+    sq_numbers = [i * i for i in numbers[:-1]]
+    return sum(sq_numbers) == (numbers[-1] * numbers[-1])
