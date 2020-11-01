@@ -35,7 +35,22 @@ def test_get_new_path_linux(monkeypatch) -> None:
 @pytest.mark.sysmodule
 @pytest.mark.skipif(platform.system() == "Linux", reason="fails on Linux")
 def test_get_new_path_win(monkeypatch) -> None:
+    """test get_new_path on Windows
+
+    Parameters
+    ----------
+    monkeypatch : MonkeyPatch
+        monkeypatch the os.getcwd()
+    """
+
     def mock_getcwd() -> str:
+        """always return a mock path "C:\\You\\Later"
+
+        Returns
+        -------
+        str
+            mock path
+        """
         return "C:\\You\\Later"
 
     monkeypatch.setattr(os, "getcwd", mock_getcwd)
