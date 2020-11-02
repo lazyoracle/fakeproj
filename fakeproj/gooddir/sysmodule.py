@@ -22,6 +22,13 @@ def get_new_path(dir_name: str) -> str:
 
 
 def get_ssh() -> str:
+    """return path to .ssh directory
+
+    Returns
+    -------
+    str
+        path to .ssh
+    """
     home_dir = os.environ["HOME"]
     ssh_dir = os.path.join(home_dir, ".ssh")
     return ssh_dir
