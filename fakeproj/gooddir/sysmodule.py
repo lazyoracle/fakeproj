@@ -19,3 +19,9 @@ def get_new_path(dir_name: str) -> str:
     cwd = os.getcwd()
     new_path = os.path.join(cwd, dir_name)
     return new_path
+
+
+def get_ssh() -> str:
+    home_dir = os.environ["HOME"]
+    ssh_dir = os.path.join(home_dir, ".ssh")
+    return ssh_dir
