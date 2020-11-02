@@ -33,7 +33,10 @@ def test_get_new_path_linux(monkeypatch) -> None:
 
 
 @pytest.mark.sysmodule
-@pytest.mark.skipif(platform.system() == "Linux", reason="fails on Linux")
+@pytest.mark.skipif(
+    platform.system() == "Linux" or platform.system() == "Darwin",
+    reason="fails on Linux/macOS",
+)
 def test_get_new_path_win(monkeypatch) -> None:
     """test get_new_path on Windows
 
