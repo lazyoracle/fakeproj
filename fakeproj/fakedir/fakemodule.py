@@ -1,13 +1,12 @@
 """fake module with two fake functions used for tests
 """
-import numpy as np
+import numpy as np  # type: ignore
 from typing import List
-from typing import Iterable
 
 Vector = List[float]
 
 
-def fakefunc(fakelist: Vector) -> Iterable:
+def fakefunc(fakelist: Vector) -> np.array:
     """take a list and return numpy array
 
     Parameters
@@ -17,7 +16,7 @@ def fakefunc(fakelist: Vector) -> Iterable:
 
     Returns
     -------
-    numpy.ndarray
+    numpy.array
         numpy array from python list
     """
     fake_array = np.array(fakelist)

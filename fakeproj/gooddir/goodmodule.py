@@ -34,7 +34,7 @@ def recp_sum(numbers: Vector) -> float:
     float
         reciprocal sum
     """
-    result = 0
+    result = 0.0
     for i in numbers:
         if i != 0:
             result += 1.0 / i
