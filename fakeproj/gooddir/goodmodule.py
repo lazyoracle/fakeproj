@@ -41,12 +41,12 @@ def recp_sum(numbers: Vector) -> float:
     return result
 
 
-def pytha_quad(numbers: Vector) -> bool:
+def pytha_quad(numbers: List[int]) -> bool:
     """check if a list is pythagorean quadruplet
 
     Parameters
     ----------
-    numbers : list(float)
+    numbers : List[int]
         list of 4 numbers
 
     Returns
