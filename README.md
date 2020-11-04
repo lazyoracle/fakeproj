@@ -1,6 +1,6 @@
-# fakeproj
+# fakeproj: DevOps for Dummies
 
-A dummy project to test python code quality tools
+A dummy project to introduce various DevOps tools and Best Practices to Python developers. Follow along with the tutorial on [fakeproj.readthedocs.io](https://fakeproj.readthedocs.io)
 
 ## Installation
 
