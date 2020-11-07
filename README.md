@@ -42,7 +42,8 @@ docstr-coverage .
 ### GitHub Actions
 
 * Unit Testing (Python 3.6, 3.7, 3.8 on ubuntu:latest)  ![unit test](https://github.com/lazyoracle/fakeproj/workflows/Unit%20Testing/badge.svg)
-* Code Coverage   ![coverage](https://github.com/lazyoracle/fakeproj/workflows/Code%20Coverage/badge.svg)
+* Code Coverage   ![coverage](https://github.com/lazyoracle/fakeproj/workflows/Code%20Coverage/badge.svg) 
+[![codecov](https://codecov.io/gh/lazyoracle/fakeproj/branch/master/graph/badge.svg)](https://codecov.io/gh/lazyoracle/fakeproj)
 * Code Complexity (Maximum CC of B/B/A)  ![complexity test](https://github.com/lazyoracle/fakeproj/workflows/Code%20Complexity/badge.svg)
 * Build Testing (Python 3.6, 3.7, 3.8 on {ubuntu, macos, windows}:latest)  ![build test](https://github.com/lazyoracle/fakeproj/workflows/Python%20package%20Build/badge.svg)
 
