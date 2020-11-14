@@ -2,6 +2,7 @@
 
 ![unit test](https://github.com/lazyoracle/fakeproj/workflows/Unit%20Testing/badge.svg)
 ![coverage](https://github.com/lazyoracle/fakeproj/workflows/Code%20Coverage/badge.svg)
+[![codecov](https://codecov.io/gh/lazyoracle/fakeproj/branch/master/graph/badge.svg)](https://codecov.io/gh/lazyoracle/fakeproj)
 ![complexity test](https://github.com/lazyoracle/fakeproj/workflows/Code%20Complexity/badge.svg)
 ![build test](https://github.com/lazyoracle/fakeproj/workflows/Python%20package%20Build/badge.svg)
 <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
