@@ -14,7 +14,7 @@ def dummyfunc() -> int:
     int
         length of array
     """
-    mylist = [1, 2, 3, 4, 5]
+    mylist = [1.0, 2.0, 3.0, 4.0, 5.0]
     myarray = fakefunc(mylist)
     return len(myarray)
 

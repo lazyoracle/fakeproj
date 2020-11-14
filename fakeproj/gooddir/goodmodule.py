@@ -34,19 +34,19 @@ def recp_sum(numbers: Vector) -> float:
     float
         reciprocal sum
     """
-    result = 0
+    result = 0.0
     for i in numbers:
         if i != 0:
             result += 1.0 / i
     return result
 
 
-def pytha_quad(numbers: Vector) -> bool:
+def pytha_quad(numbers: List[int]) -> bool:
     """check if a list is pythagorean quadruplet
 
     Parameters
     ----------
-    numbers : list(float)
+    numbers : List[int]
         list of 4 numbers
 
     Returns
