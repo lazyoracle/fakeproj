@@ -7,6 +7,7 @@ import os
 import platform
 
 
+@pytest.mark.unit
 @pytest.mark.sysmodule
 @pytest.mark.skipif(platform.system() == "Windows", reason="fails on Windows")
 def test_get_new_path_linux(monkeypatch) -> None:

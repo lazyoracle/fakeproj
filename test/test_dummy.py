@@ -6,6 +6,7 @@ from fakeproj.fakedir.fakemodule import fakefunc
 import pytest
 
 
+@pytest.mark.unit
 @pytest.mark.fakemodule
 def test_dummy_func() -> None:
     """test dummy_func()"""
