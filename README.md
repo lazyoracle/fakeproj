@@ -6,7 +6,7 @@
 ![complexity test](https://github.com/lazyoracle/fakeproj/workflows/Code%20Complexity/badge.svg)
 ![build test](https://github.com/lazyoracle/fakeproj/workflows/Python%20package%20Build/badge.svg)
 <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
-
+[![Documentation Status](https://readthedocs.org/projects/fakeproj/badge/?version=latest)](https://fakeproj.readthedocs.io/en/latest/?badge=latest)
 
 A dummy project to introduce various DevOps tools and Best Practices to Python developers. Follow along with the tutorial on [fakeproj.readthedocs.io](https://fakeproj.readthedocs.io)
 
