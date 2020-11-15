@@ -15,7 +15,7 @@ from a non Software Engineering background, the tutorial mainly focuses on devel
 much of the information here is applicable and transferable to other domains of software development as well. 
 
 What this tutorial isn't, is an in-depth treatment of the various tools we describe. Almost always, we will provide a brief introduction
-and give a taste of what all can be done using a particular and includes links to documentation and tutorials that do a better job in 
+and give a taste of what all can be done using a particular tool and then include links to documentation and tutorials that do a better job in 
 giving you a step-by-step guide to using said tools.
 
 .. toctree::
