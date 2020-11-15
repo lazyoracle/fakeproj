@@ -35,12 +35,13 @@ giving you a step-by-step guide to using said tools.
    packaging
    ide-plugins
 
-.. https://dont-be-afraid-to-commit.readthedocs.io/en/latest/cheatsheet.html
-
-
 Indices and Search
 ==================
 
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+.. https://dont-be-afraid-to-commit.readthedocs.io/en/latest/cheatsheet.html
+.. https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html
+.. https://sublime-and-sphinx-guide.readthedocs.io/en/latest/index.html
