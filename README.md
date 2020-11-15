@@ -61,7 +61,7 @@ This project uses [Black](https://black.readthedocs.io/en/stable/) for Code Form
 
 ## To-Do
 
-- [ ] Integration Testing
+- [ ] Code Benchmarks
 - [ ] Populate Docs
 - [ ] Git Tags and Releases
 - [ ] Packaging and Deployment
