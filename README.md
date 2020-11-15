@@ -1,6 +1,7 @@
 # fakeproj: DevOps for Dummies
 
 ![unit test](https://github.com/lazyoracle/fakeproj/workflows/Unit%20Testing/badge.svg)
+![integration test](https://github.com/lazyoracle/fakeproj/workflows/Integration%20Testing/badge.svg)
 ![coverage](https://github.com/lazyoracle/fakeproj/workflows/Code%20Coverage/badge.svg)
 [![codecov](https://codecov.io/gh/lazyoracle/fakeproj/branch/master/graph/badge.svg)](https://codecov.io/gh/lazyoracle/fakeproj)
 ![complexity test](https://github.com/lazyoracle/fakeproj/workflows/Code%20Complexity/badge.svg)
