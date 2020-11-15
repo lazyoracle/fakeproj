@@ -5,7 +5,7 @@ Pre Commit Hooks
    :titlesonly:
 
 ***************************
-Pre-Commit config files
+Pre-Commit Config files
 ***************************
 
 .. precommit, yaml file, hooks, IDs, git add and commit
