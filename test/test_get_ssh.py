@@ -7,6 +7,7 @@ import os
 import platform
 
 
+@pytest.mark.unit
 @pytest.mark.sysmodule
 @pytest.mark.skipif(platform.system() == "Windows", reason="fails on Windows")
 def test_get_ssh_linux(monkeypatch) -> None:
@@ -21,6 +22,7 @@ def test_get_ssh_linux(monkeypatch) -> None:
     assert get_ssh() == "/Baker/Street/221B/.ssh"
 
 
+@pytest.mark.unit
 @pytest.mark.sysmodule
 @pytest.mark.skipif(
     platform.system() == "Linux" or platform.system() == "Darwin",

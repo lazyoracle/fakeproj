@@ -1,4 +1,4 @@
-name: Unit Testing
+name: Integration Testing
 
 on:
   push:
@@ -34,4 +34,4 @@ jobs:
       run: pip install -r requirements.txt
     - name: Test with pytest
       run: |
-        pytest -v -m unit --cov=fakeproj test/
+        pytest -v -m integration --cov=fakeproj test/

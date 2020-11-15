@@ -3,15 +3,13 @@
 import numpy as np  # type: ignore
 from typing import List
 
-Vector = List[float]
 
-
-def fakefunc(fakelist: Vector) -> np.array:
+def fakefunc(fakelist: List[int]) -> np.array:
     """take a list and return numpy array
 
     Parameters
     ----------
-    fakelist : list[float]
+    fakelist : list[int]
         list of ints
 
     Returns

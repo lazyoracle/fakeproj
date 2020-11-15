@@ -6,6 +6,7 @@ from fakeproj.gooddir.goodmodule import pytha_quad
 from typing import List
 
 
+@pytest.mark.unit
 @pytest.mark.goodmodule
 @pytest.mark.parametrize(
     "numbers",
@@ -29,6 +30,7 @@ def test_pytha_quad(numbers: List[int]) -> None:
     assert pytha_quad(numbers)
 
 
+@pytest.mark.unit
 @pytest.mark.goodmodule
 @pytest.mark.parametrize("numbers", [[1, 1, 1, 1], [1, 2, 3, 4], [5, 6, 7, 8]])
 def test_not_pytha_quad(numbers: List[int]) -> None:
