@@ -18,7 +18,7 @@ from fakeproj.fakedir.fakemodule import fakefunc
         [2, 6, 9, 11],
     ],
 )
-def test_pytha_quad_integ(numbers: List[float]) -> None:
+def test_pytha_quad_integ(numbers: List[int]) -> None:
     """Integration Pass Test for pytha_quad
 
     Parameters
