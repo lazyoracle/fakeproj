@@ -12,7 +12,11 @@ contains sample files that demonstrate all the functionality that we discuss in 
 an empty repository and follow along the various sections below to write code, documentation & tests and then configure the build
 and deployment systems, referring to the sample code whenever necessary. Originally intended for scientific software developers coming
 from a non Software Engineering background, the tutorial mainly focuses on developing python libraries (as opposed to webapps). However,
-much of the information here is applicable and transferable to other domains of software development as well.
+much of the information here is applicable and transferable to other domains of software development as well. 
+
+What this tutorial isn't, is an in-depth treatment of the various tools we describe. Almost always, we will provide a brief introduction
+and give a taste of what all can be done using a particular and includes links to documentation and tutorials that do a better job in 
+giving you a step-by-step guide to using said tools.
 
 .. toctree::
    :maxdepth: 2
