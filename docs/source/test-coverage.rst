@@ -8,7 +8,10 @@ Tests and Code Coverage
 Testing with pytest
 *******************
 
-.. pytest - unit and integration - markers, fixtures, monkeypatch, parametrize
+.. pytest - unit and integration - markers, fixtures, monkeypatch, parametrize, fixture cache, fixture params
+.. plugins - pytest-mock, pytest-cov, pytest-xdist, pytest-bdd, pytest-hypothesis, pytest-slack
+.. https://www.youtube.com/watch?v=CMuSn9cofbI
+.. https://docs.pytest.org/en/stable/example/index.html 
 
 *********************************************
 Code Coverage with pytest-cov and Codecov.io
