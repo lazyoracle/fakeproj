@@ -7,7 +7,7 @@ from distutils.core import setup
 setup(
     name="fakeproj",
     version="1.0rc",
-    packages=["fakeproj", "fakeproj/fakedir"],
+    packages=["fakeproj", "fakeproj/fakedir", "fakeproj/gooddir", "fakeproj/slowdir"],
     long_description=open("README.md").read(),
     install_requires=["numpy==1.19.2"],
 )
