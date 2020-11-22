@@ -35,4 +35,4 @@ def test_SlowStuff(wait_time: float, num_elements: int, small_dict: dict) -> Non
 
     assert slow_obj.slow_dict()
     assert slow_obj.slow_list()
-    assert slow_obj.dict_no_setup(small_dict)
+    assert slow_obj.dict_setup(small_dict)

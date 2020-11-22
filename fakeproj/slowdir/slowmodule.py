@@ -54,7 +54,7 @@ class SlowStuff:
 
         return True
 
-    def dict_no_setup(self, pre_made_dict: dict) -> bool:
+    def dict_setup(self, pre_made_dict: dict) -> bool:
         """iterate slowly through the supplied dictionary
 
         Parameters
