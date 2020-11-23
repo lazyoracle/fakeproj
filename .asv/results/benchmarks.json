@@ -1,0 +1,109 @@
+{
+    "bench_SlowStuff.BechmarkSuite.mem_SlowStuff": {
+        "code": "class BechmarkSuite:\n    def mem_SlowStuff(self, wait_time, num_elements) -> SlowStuff:\n        \"\"\"memory benchmark for SlowStuff\n    \n        Parameters\n        ----------\n        wait_time : float\n            time to wait between iterations\n        num_elements : int\n            number of elements in iterables\n    \n        Returns\n        -------\n        SlowStuff\n            SlowStuff object\n        \"\"\"\n        big_slow_obj = SlowStuff(wait_time, num_elements)  # type: ignore\n        return big_slow_obj\n\n    def setup(self, wait_time: float, num_elements: int) -> None:\n        \"\"\"setup function for BenchmarkSuite\n    \n        Parameters\n        ----------\n        wait_time : float\n            time to wait between iterations\n        num_elements : int\n            number of elements in iterables\n        \"\"\"\n        self.small_dict = dict(zip([range(1, 10, 1)], [range(100, 1000, 100)]))\n        self.slow_obj = SlowStuff(\n            wait_time, num_elements\n        )",
+        "name": "bench_SlowStuff.BechmarkSuite.mem_SlowStuff",
+        "param_names": [
+            "wait_time",
+            "num_elements"
+        ],
+        "params": [
+            [
+                "0.01",
+                "0.1"
+            ],
+            [
+                "5",
+                "500000"
+            ]
+        ],
+        "timeout": 60.0,
+        "type": "memory",
+        "unit": "bytes",
+        "version": "c9b3aff3f48cd3d186e629a521acbf04a1dcc7d41390245d582a466edcfcc2f7"
+    },
+    "bench_SlowStuff.BechmarkSuite.time_setup_dict": {
+        "code": "class BechmarkSuite:\n    def time_setup_dict(self, wait_time, num_elements) -> None:\n        \"\"\"timing benchmark for setup_dict()\n    \n        Parameters\n        ----------\n        wait_time : float\n            time to wait between iterations\n        num_elements : int\n            number of elements in iterables\n        \"\"\"\n        self.slow_obj.dict_setup(self.small_dict)\n\n    def setup(self, wait_time: float, num_elements: int) -> None:\n        \"\"\"setup function for BenchmarkSuite\n    \n        Parameters\n        ----------\n        wait_time : float\n            time to wait between iterations\n        num_elements : int\n            number of elements in iterables\n        \"\"\"\n        self.small_dict = dict(zip([range(1, 10, 1)], [range(100, 1000, 100)]))\n        self.slow_obj = SlowStuff(\n            wait_time, num_elements\n        )",
+        "min_run_count": 2,
+        "name": "bench_SlowStuff.BechmarkSuite.time_setup_dict",
+        "number": 0,
+        "param_names": [
+            "wait_time",
+            "num_elements"
+        ],
+        "params": [
+            [
+                "0.01",
+                "0.1"
+            ],
+            [
+                "5",
+                "500000"
+            ]
+        ],
+        "processes": 2,
+        "repeat": 0,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "0182999f773d2f4f2621d6730af483501b66795e8821cff3f1009c7560376d08",
+        "warmup_time": -1
+    },
+    "bench_SlowStuff.BechmarkSuite.time_slow_dict": {
+        "code": "class BechmarkSuite:\n    def time_slow_dict(self, wait_time, num_elements) -> None:\n        \"\"\"timing benchmark for slow_dict()\n    \n        Parameters\n        ----------\n        wait_time : float\n            time to wait between iterations\n        num_elements : int\n            number of elements in iterables\n        \"\"\"\n        self.slow_obj.slow_dict()\n\n    def setup(self, wait_time: float, num_elements: int) -> None:\n        \"\"\"setup function for BenchmarkSuite\n    \n        Parameters\n        ----------\n        wait_time : float\n            time to wait between iterations\n        num_elements : int\n            number of elements in iterables\n        \"\"\"\n        self.small_dict = dict(zip([range(1, 10, 1)], [range(100, 1000, 100)]))\n        self.slow_obj = SlowStuff(\n            wait_time, num_elements\n        )",
+        "min_run_count": 2,
+        "name": "bench_SlowStuff.BechmarkSuite.time_slow_dict",
+        "number": 0,
+        "param_names": [
+            "wait_time",
+            "num_elements"
+        ],
+        "params": [
+            [
+                "0.01",
+                "0.1"
+            ],
+            [
+                "5",
+                "500000"
+            ]
+        ],
+        "processes": 2,
+        "repeat": 0,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "7f67d5f5739bafa3badfaa2457cd06efd21ecf1df27dd95c77d08905caea18d9",
+        "warmup_time": -1
+    },
+    "bench_SlowStuff.BechmarkSuite.time_slow_list": {
+        "code": "class BechmarkSuite:\n    def time_slow_list(self, wait_time, num_elements) -> None:\n        \"\"\"timing benchmark for slow_list()\n    \n        Parameters\n        ----------\n        wait_time : float\n            time to wait between iterations\n        num_elements : int\n            number of elements in iterables\n        \"\"\"\n        self.slow_obj.slow_list()\n\n    def setup(self, wait_time: float, num_elements: int) -> None:\n        \"\"\"setup function for BenchmarkSuite\n    \n        Parameters\n        ----------\n        wait_time : float\n            time to wait between iterations\n        num_elements : int\n            number of elements in iterables\n        \"\"\"\n        self.small_dict = dict(zip([range(1, 10, 1)], [range(100, 1000, 100)]))\n        self.slow_obj = SlowStuff(\n            wait_time, num_elements\n        )",
+        "min_run_count": 2,
+        "name": "bench_SlowStuff.BechmarkSuite.time_slow_list",
+        "number": 0,
+        "param_names": [
+            "wait_time",
+            "num_elements"
+        ],
+        "params": [
+            [
+                "0.01",
+                "0.1"
+            ],
+            [
+                "5",
+                "500000"
+            ]
+        ],
+        "processes": 2,
+        "repeat": 0,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "5489da9827be423027d24566fdd9f3beb54a750b8b6520796268fce2d420400d",
+        "warmup_time": -1
+    },
+    "version": 2
+}
