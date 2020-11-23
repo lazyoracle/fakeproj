@@ -35,6 +35,14 @@ There are markers for individual modules from the library, eg,
 pytest -v -m "goodmodule" --cov=fakeproj test/
 ```
 
+### Benchmarks
+
+Benchmarks can be run locally using `asv run`, followed by `asv publish` and `asv preview`.
+
+The benchmarks are also available to view online at [here](https://lazyoracle.github.io/fakeproj/).
+
+To update the online dashboard by pushing the latest benchmarks, use `asv gh-pages`
+
 ### Complexity
 
 ```bash
@@ -61,7 +69,6 @@ This project uses [Black](https://black.readthedocs.io/en/stable/) for Code Form
 
 ## To-Do
 
-- [ ] Code Benchmarks
 - [ ] Populate Docs
 - [ ] Git Tags and Releases
 - [ ] Packaging and Deployment

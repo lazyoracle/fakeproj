@@ -1,0 +1,9 @@
+{
+    "arch": "x86_64",
+    "cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+    "machine": "remote-c3",
+    "num_cpu": "4",
+    "os": "Linux 5.4.0-1029-gcp",
+    "ram": "16397308",
+    "version": 1
+}
