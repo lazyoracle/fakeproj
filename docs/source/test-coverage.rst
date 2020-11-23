@@ -26,3 +26,4 @@ Benchmarking with Airspeed Velocity
 .. https://asv.readthedocs.io/en/stable/using.html
 .. https://asv.readthedocs.io/en/stable/writing_benchmarks.html
 .. http://scipy.github.io/devdocs/dev/contributor/benchmarking.html
+.. https://github.com/scipy/scipy/blob/master/benchmarks/README.rst
