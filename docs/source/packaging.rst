@@ -20,6 +20,8 @@ Publishing to PyPi
 .. https://twine.readthedocs.io
 .. MANIFEST.in files
 .. If the dependency doesn't exist in Test-PyPi your package won't install
+.. https://setuptools.readthedocs.io/en/latest/userguide/declarative_config.html
+.. https://docs.python.org/3/distutils/configfile.html
 
 *********************************************
 Publishing to Conda Forge
