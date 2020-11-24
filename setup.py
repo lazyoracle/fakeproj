@@ -6,7 +6,7 @@ from setuptools import setup
 
 setup(
     name="fakeproj",
-    version="1.0rc4",
+    version="1.0rc5",
     url="https://github.com/lazyoracle/fakeproj",
     author="Anurag Saha Roy",
     author_email="anurag.roni@gmail.com",
@@ -23,6 +23,6 @@ setup(
     description="Mostly useless code to demonstrate Python DevOps tools",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    install_requires=["numpy"],
+    install_requires=["numpy==1.19.0"],
     python_requires=">=3.6",
 )
