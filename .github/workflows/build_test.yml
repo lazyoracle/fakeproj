@@ -2,9 +2,10 @@ name: Python package Build
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, dev, 'release-*' ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, dev ]
+  workflow_dispatch:
 
 jobs:
   build:
