@@ -6,8 +6,17 @@
 [![codecov](https://codecov.io/gh/lazyoracle/fakeproj/branch/master/graph/badge.svg)](https://codecov.io/gh/lazyoracle/fakeproj)
 ![complexity test](https://github.com/lazyoracle/fakeproj/workflows/Code%20Complexity/badge.svg)
 ![build test](https://github.com/lazyoracle/fakeproj/workflows/Python%20package%20Build/badge.svg)
+
 <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
 [![Documentation Status](https://readthedocs.org/projects/fakeproj/badge/?version=latest)](https://fakeproj.readthedocs.io/en/latest/?badge=latest)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/lazyoracle/fakeproj/graphs/commit-activity)
+[![GitHub issues](https://img.shields.io/github/issues/lazyoracle/fakeproj.svg)](https://GitHub.com/lazyoracle/fakeproj/issues/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+
+[![PyPI version fury.io](https://badge.fury.io/py/fakeproj.svg)](https://pypi.python.org/pypi/fakeproj/)
+[![PyPI license](https://img.shields.io/pypi/l/fakeproj.svg)](https://pypi.python.org/pypi/fakeproj/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/fakeproj.svg)](https://pypi.python.org/pypi/fakeproj/)
+[![GitHub release](https://img.shields.io/github/release/lazyoracle/fakeproj.svg)](https://GitHub.com/lazyoracle/fakeproj/releases/)
 
 A dummy project to introduce various DevOps tools and Best Practices to Python developers. Follow along with the tutorial on [fakeproj.readthedocs.io](https://fakeproj.readthedocs.io)
 
