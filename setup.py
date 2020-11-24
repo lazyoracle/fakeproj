@@ -6,7 +6,7 @@ from setuptools import setup
 
 setup(
     name="fakeproj",
-    version="1.0rc5",
+    version="1.0",
     url="https://github.com/lazyoracle/fakeproj",
     author="Anurag Saha Roy",
     author_email="anurag.roni@gmail.com",
