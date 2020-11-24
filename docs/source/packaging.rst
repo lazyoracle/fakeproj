@@ -18,7 +18,10 @@ Publishing to PyPi
 .. https://packaging.python.org/tutorials/packaging-projects/#
 .. https://realpython.com/pypi-publish-python-package/
 .. https://twine.readthedocs.io
-.. MANIFEST.ini files
+.. MANIFEST.in files
+.. If the dependency doesn't exist in Test-PyPi your package won't install
+.. https://setuptools.readthedocs.io/en/latest/userguide/declarative_config.html
+.. https://docs.python.org/3/distutils/configfile.html
 
 *********************************************
 Publishing to Conda Forge
