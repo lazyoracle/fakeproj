@@ -22,6 +22,8 @@ Publishing to PyPi
 .. If the dependency doesn't exist in Test-PyPi your package won't install
 .. https://setuptools.readthedocs.io/en/latest/userguide/declarative_config.html
 .. https://docs.python.org/3/distutils/configfile.html
+.. https://packaging.python.org/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/
+.. https://github.com/pypa/sampleproject
 
 *********************************************
 Publishing to Conda Forge
