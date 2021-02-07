@@ -58,3 +58,18 @@ def pytha_quad(numbers: List[int]) -> bool:
 
     sq_numbers = [i * i for i in numbers[:-1]]
     return sum(sq_numbers) == (numbers[-1] * numbers[-1])
+
+def palindrome(word: str) -> bool:
+    """Check if the word is a palindrome
+
+    Parameters
+    ----------
+    word : str
+        word to check
+
+    Returns
+    -------
+    bool
+        whether it is palindrome or not
+    """
+    return word == word[::-1]
