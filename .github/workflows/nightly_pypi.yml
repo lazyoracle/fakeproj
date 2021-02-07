@@ -2,7 +2,7 @@ name: Nightly Release
 
 on:
   schedule:
-    - cron: '45 6 * * *' # 6.45 AM UTC everyday
+    - cron: '45 8 * * *' # 8.45 AM UTC everyday
 
 jobs:
   nightly_build-and-publish:
