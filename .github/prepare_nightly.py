@@ -12,14 +12,14 @@ now_date = now.strftime("%Y%m%d")
 print(f"Update init - replace version by {now_date}")
 with open(_PATH_INIT, 'r') as fp:
     init = fp.read()
-init = re.sub(r'__version__ = [\d\.\w\'"]+', f'__version__ = "dev-{now_date}"', init)
+init = re.sub(r'__version__ = [\d\.\w\'"]+', f'__version__ = "{now_date}"', init)
 with open(_PATH_INIT, 'w') as fp:
     fp.write(init)
 
 print(f"Update setup - replace version by {now_date} and update to fakeproj-nightly")
 with open(_PATH_SETUP, 'r') as fp:
     setup = fp.read()
-setup = re.sub(r'version=[\d\.\w\'"]+', f'version="dev-{now_date}"', setup)
+setup = re.sub(r'version=[\d\.\w\'"]+', f'version="{now_date}"', setup)
 setup = re.sub(r'name="fakeproj"', f'name="fakeproj-nightly"', setup)
 with open(_PATH_SETUP, 'w') as fp:
     fp.write(setup)
