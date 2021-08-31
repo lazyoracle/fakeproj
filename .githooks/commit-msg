@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+# https://gist.github.com/pgilad/5d7e4db725a906bd7aa7
+
+# set this to your active development branch
+# develop_branch="develop"
+# current_branch="$(git rev-parse --abbrev-ref HEAD)"
+
+# only check commit messages on main development branch
+# [ "$current_branch" != "$develop_branch" ] && exit 0
+
+# regex to validate in commit msg
+commit_regex='(fix|add|merge)'
+error_msg="Aborting commit. Your commit message should contain fix or add or merge"
+
+if ! grep -iqE "$commit_regex" "$1"; then
+    echo "$error_msg" >&2
+    exit 1
+fi
