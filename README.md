@@ -38,7 +38,6 @@ pip install -e .
 ```bash
 pip install pre-commit
 pre-commit install
-git config core.hooksPath .githooks
 ```
 
 ### Testing
