@@ -32,6 +32,8 @@ pip install .
 pip install -r requirements.txt
 ```
 
+### Git hooks
+
 ### Testing
 
 ```bash
