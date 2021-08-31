@@ -30,9 +30,16 @@ pip install .
 
 ```bash
 pip install -r requirements.txt
+pip install -e .
 ```
 
 ### Git hooks
+
+```bash
+pip install pre-commit
+pre-commit install
+git config core.hooksPath .githooks
+```
 
 ### Testing
 
