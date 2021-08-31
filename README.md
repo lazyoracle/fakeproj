@@ -38,6 +38,9 @@ pip install -e .
 ```bash
 pip install pre-commit
 pre-commit install
+ln -s ../../.githooks/commit-msg .git/hooks/commit-msg
+chmod +x .git/hooks/commit-msg
+rm .git/hooks/commit-msg.sample
 ```
 
 ### Testing
