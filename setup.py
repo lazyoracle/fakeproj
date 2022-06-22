@@ -23,6 +23,6 @@ setup(
     description="Mostly useless code to demonstrate Python DevOps tools",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    install_requires=["numpy==1.22.0"],
+    install_requires=["numpy==1.22"],
     python_requires=">=3.6",
 )
